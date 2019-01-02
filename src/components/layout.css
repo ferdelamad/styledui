@@ -5,7 +5,6 @@ html {
 }
 body {
   margin: 0;
-  padding: 30px;
 }
 article,
 aside,
@@ -184,7 +183,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 62.5% georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -199,10 +198,12 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
+  font-size: 1.6rem;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
+  padding: 3rem;
   -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
@@ -227,13 +228,13 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
