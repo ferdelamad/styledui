@@ -8,13 +8,13 @@ const Header = () => {
   return (
     <Background>
       <Container>
-        <H1 fontSize="30px" animation={moveLeft}>
+        <H1 fontSize="3rem" animation={moveLeft}>
           StyledUI
         </H1>
         <H1
-          fontSize="14px"
+          fontSize="1.4rem"
           animation={moveRight}
-          letterSpacing="2.85px"
+          letterSpacing=".3rem"
           fontWeight="300"
         >
           simplified css
