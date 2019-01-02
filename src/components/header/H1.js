@@ -8,6 +8,7 @@ const H1 = styled.h1`
   font-weight: ${props => props.fontWeight || '400'};
   font-size: ${props => props.fontSize || '16px'};
   letter-spacing: ${props => props.letterSpacing || '0px'};
+  animation: ${props => props.animation || ''} 0.4s;
 `
 
 export default H1
