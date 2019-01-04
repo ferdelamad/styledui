@@ -1,27 +1,9 @@
-import React from 'react'
-import Background from './Background'
-import Container from './Container'
-import H1 from './H1'
-import { moveLeft, moveRight } from './Animations'
+import styled from 'styled-components'
 
-const Header = () => {
-  return (
-    <Background>
-      <Container>
-        <H1 fontSize="3rem" animation={moveLeft}>
-          StyledUI
-        </H1>
-        <H1
-          fontSize="1.4rem"
-          animation={moveRight}
-          letterSpacing=".3rem"
-          fontWeight="300"
-        >
-          simplified css
-        </H1>
-      </Container>
-    </Background>
-  )
-}
-
+const Header = styled.header`
+  position: fixed;
+  background-color: #5e227f;
+  height: 10vh;
+  width: 100%;
+`
 export default Header
