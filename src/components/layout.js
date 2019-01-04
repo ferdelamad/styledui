@@ -1,16 +1,17 @@
 import React from 'react'
-import Header from './header/Header'
+import Head from './header/Head'
 import './layout.css'
 
 const Layout = ({ children }) => (
   <>
-    <Header />
+    <Head />
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `0px 1.0875rem 1.45rem`,
+        padding: `8rem 1.0875rem 1.45rem`,
         paddingTop: 0,
+        backgroundColor: `#41a7b3`,
       }}
     >
       {children}
