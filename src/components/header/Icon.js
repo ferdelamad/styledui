@@ -1,19 +1,33 @@
+import React from 'react'
 import styled from 'styled-components'
 
-const A = styled.a`
-  text-align: center;
-  color: #fff;
-  font-size: ${props => props.fontSize || '1.6 rem'};
-  transition: background-color 150ms;
-  flex: 0 0 auto;
-  border-radius: 50%;
-  display: inline-flex;
+const IconContainer = styled.div`
+  display: flex;
+  width: 1rem;
+  margin: 1rem;
   padding: 1rem;
-  width: 1.5rem;
-  margin: 0 0.5rem;
+  text-align: center;
+  transition: background-color 150ms;
+
   :hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
 `
 
-export default A
+const A = styled.a`
+  color: #fff;
+  font-size: ${props => props.fontSize || '1.6 rem'};
+  border-radius: 100%;
+  padding: 1rem;
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+`
+
+const Icon = props => (
+  <IconContainer>
+    <A>{props.children}</A>
+  </IconContainer>
+)
+
+export default Icon
