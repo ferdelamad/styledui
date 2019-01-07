@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from './Header'
 import Nav from './Nav'
-import Icon from './Icon'
 
 const Head = () => (
   <Header>
+    <h1>Styled UI</h1>
     <Nav>
-      <Icon>T</Icon>
-      <Icon>E</Icon>
+      <button>Buttons</button>
+      <button>Layouts</button>
+      <button>Animations</button>
     </Nav>
   </Header>
 )
