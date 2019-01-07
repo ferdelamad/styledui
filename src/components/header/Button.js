@@ -12,6 +12,7 @@ const Button = styled.button`
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
+  cursor: pointer;
 
   :hover {
     color: tomato;
