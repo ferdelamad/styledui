@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from './Header'
 import Nav from './Nav'
+import Button from './Button'
 
 const Head = () => (
   <Header>
     <h1>Styled UI</h1>
     <Nav>
-      <button>Buttons</button>
-      <button>Layouts</button>
-      <button>Animations</button>
+      <Button>Buttons</Button>
+      <Button>Layouts</Button>
+      <Button>Animations</Button>
     </Nav>
   </Header>
 )
