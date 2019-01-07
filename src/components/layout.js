@@ -1,10 +1,8 @@
 import React from 'react'
-import Head from './header/Head'
 import './layout.css'
 
 const Layout = ({ children }) => (
   <>
-    <Head />
     <div
       style={{
         margin: `0 auto`,
