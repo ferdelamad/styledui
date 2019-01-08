@@ -12,6 +12,11 @@ const Head = () => (
       <Button>Layouts</Button>
       <Button>Animations</Button>
     </Nav>
+    <Nav>
+      <Button>O</Button>
+      <Button>O</Button>
+      <Button>O</Button>
+    </Nav>
   </Header>
 )
 

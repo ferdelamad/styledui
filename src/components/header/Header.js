@@ -6,7 +6,7 @@ const Header = styled.header`
   height: 10vh;
   width: 100%;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 5fr 1fr;
   grid-auto-flow: column;
   grid-gap: 10rem;
   padding: 2rem;
