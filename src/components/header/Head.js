@@ -5,6 +5,8 @@ import Logo from './Logo'
 import UL from './UL'
 import Link from './Link'
 import Github from '../icons/Github'
+import Code from '../icons/Code'
+import Twitter from '../icons/Twitter'
 
 const Head = () => (
   <Header>
@@ -23,8 +25,8 @@ const Head = () => (
       <Nav>
         <UL gap="10px" justifyItems="center">
           <Github />
-          <Github />
-          <Github />
+          <Code />
+          <Twitter />
         </UL>
       </Nav>
     </div>
