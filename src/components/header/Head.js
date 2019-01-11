@@ -21,7 +21,7 @@ const Head = () => (
     </Nav>
     <Nav>
       <UL gap="10px" justifyItems="center">
-        <Github />
+        <Github href="https://github.com/ferdelamad/styledui" target="_blank" />
         <Code />
         <Light />
       </UL>

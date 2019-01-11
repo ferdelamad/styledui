@@ -8,7 +8,7 @@ const Layout = ({ children }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `8rem 1.0875rem 1.45rem`,
-        paddingTop: 0,
+        paddingTop: `10vh`,
         backgroundColor: `#41a7b3`,
       }}
     >
