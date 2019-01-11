@@ -8,9 +8,10 @@ const A = styled.a`
   border: 1px solid white;
   background-color: transparent;
   text-transform: uppercase;
-  padding: 1rem;
+  padding: 1rem 4rem;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.15rem;
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.5s ease;

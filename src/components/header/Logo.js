@@ -1,23 +1,30 @@
+import React from 'react'
 import styled from 'styled-components'
+import Magnet from '../icons/Magnet'
+
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
 
 const H1 = styled.h1`
-  color: white;
-  padding-left: 2rem;
+  color: tomato;
   transition: all 0.5s ease;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 0.5rem;
+  cursor: pointer;
 
   :hover {
-    color: tomato;
-  }
-
-  @media (max-width: 700px) {
-    text-align: center;
-    padding-left: 0;
-  }
-
-  @media (max-width: 500px) {
-    text-align: center;
-    padding-left: 0;
+    color: #fff;
   }
 `
 
-export default H1
+const Logo = () => (
+  <Container>
+    <Magnet />
+    <H1>StyledUI </H1>
+  </Container>
+)
+
+export default Logo
