@@ -1,8 +1,10 @@
 import React from 'react'
 import SVG from './SVG'
 
-const Code = () => (
+const Code = props => (
   <SVG
+    href={props.href}
+    target={props.target}
     fill="#fff"
     xmlns="http://www.w3.org/2000/svg"
     width="36"
