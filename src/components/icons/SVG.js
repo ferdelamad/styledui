@@ -6,9 +6,12 @@ const SVGIcon = styled.svg`
   justify-content: center;
   transition: all 0.5s ease;
   cursor: pointer;
+  height: ${props => props.height};
+  width: ${props => props.width};
+  fill: ${props => props.fill || '#ff6347'};
 
   :hover {
-    fill: ${props => props.color || '#ff6347'};
+    fill: ${props => props.fillHover || '#ff6347'};
   }
 `
 const SVG = props => {
