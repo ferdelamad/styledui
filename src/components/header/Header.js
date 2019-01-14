@@ -20,13 +20,5 @@ const Header = styled.header`
     margin-bottom: 200px;
     grid-gap: 0;
   }
-
-  @media (max-width: 700px) {
-    grid-template-columns: 1fr;
-    height: 22vh;
-    padding: 0.5rem;
-    margin-bottom: 200px;
-    grid-gap: 0;
-  }
 `
 export default Header
