@@ -14,16 +14,19 @@ const H1 = styled.h1`
   font-family: 'Poppins', sans-serif;
   padding-left: 0.5rem;
   cursor: pointer;
+  font-size: ${props => props.fontSize || '3rem'};
 
   :hover {
-    color: #fff;
+    color: ${props => props.colorHover || '#fff'};
   }
 `
 
-const Logo = () => (
+const Logo = props => (
   <Container>
-    <Magnet />
-    <H1>StyledUI </H1>
+    <Magnet {...props} />
+    <H1 fontSize={props.fontSize} colorHover={props.colorHover}>
+      StyledUI{' '}
+    </H1>
   </Container>
 )
 

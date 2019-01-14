@@ -10,7 +10,7 @@ import Light from '../icons/Light'
 
 const Head = () => (
   <Header>
-    <Logo />
+    <Logo width="36" height="36" fill="#fff" />
     <Nav>
       <UL gap="20px">
         <Link>Home</Link>
