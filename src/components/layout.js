@@ -2,7 +2,8 @@ import React from 'react'
 import './layout.css'
 import Header from '../components/header/Head'
 import Body from '../components/body/body'
-import Logo from '../components/header/Logo'
+import Main from '../components/body/main'
+// import Logo from '../components/header/Logo'
 
 const Layout = ({ children }) => (
   <>
@@ -17,13 +18,7 @@ const Layout = ({ children }) => (
       }}
     > */}
     <Body>
-      <Logo
-        width="72"
-        height="72"
-        fontSize="6rem"
-        colorHover="tomato"
-        fillHover="tomato"
-      />
+      <Main />
       {children}
       <footer>
         © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
